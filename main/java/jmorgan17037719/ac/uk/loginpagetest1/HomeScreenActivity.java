@@ -44,7 +44,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         orderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent orderIntent = new Intent(HomeScreenActivity.this, OrderActivity.class );
+                Intent orderIntent = new Intent(HomeScreenActivity.this, OrderActivity2.class );
                 startActivity(orderIntent);
             }
         });
