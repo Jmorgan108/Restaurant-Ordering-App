@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010818"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginStartActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/placeholder" />
+
+    <EditText
+        android:id="@+id/textUsername"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/username2"
+        android:hint="@string/username"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/password3"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/textConfirmPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/password3"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:background="@drawable/rounded_rectangle_button_orange"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/register"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/textAlreadyRegistered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="@string/already_registered"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

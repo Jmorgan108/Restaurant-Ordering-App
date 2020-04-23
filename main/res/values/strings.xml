@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project\nApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="login">Login</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="homepage">Homepage</string>
+    <string name="log_out">Log Out</string>
+</resources>
