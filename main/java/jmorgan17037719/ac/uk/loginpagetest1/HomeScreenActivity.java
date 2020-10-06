@@ -13,6 +13,7 @@ public class HomeScreenActivity extends AppCompatActivity {
     Button moreButton;
     Button menuButton;
     Button orderButton;
+    Button tableButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,8 @@ public class HomeScreenActivity extends AppCompatActivity {
         logOffButton = (Button)findViewById(R.id.buttonLogOut);
         moreButton = (Button)findViewById(R.id.buttonMore);
         orderButton = (Button)findViewById(R.id.buttonOrder);
+        menuButton = (Button)findViewById(R.id.buttonMenu);
+        tableButton = (Button)findViewById(R.id.buttonTables);
 
         logOffButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,8 +47,24 @@ public class HomeScreenActivity extends AppCompatActivity {
         orderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent orderIntent = new Intent(HomeScreenActivity.this, OrderActivity2.class );
+                Intent orderIntent = new Intent(HomeScreenActivity.this, OrderActivity.class );
                 startActivity(orderIntent);
+            }
+        });
+
+        menuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent menuIntent = new Intent(HomeScreenActivity.this, MenuActivity.class );
+                startActivity(menuIntent);
+            }
+        });
+
+        tableButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tableIntent = new Intent(HomeScreenActivity.this, TablesActivity.class );
+                startActivity(tableIntent);
             }
         });
     }

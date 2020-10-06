@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_fridge_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OrderActivity2"></activity>
+        <activity android:name=".TablesActivity"></activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".OrderActivity" />
         <activity android:name=".OrderActivity" />
         <activity android:name=".ContactActivity" />
         <activity android:name=".AllergyActivity" />

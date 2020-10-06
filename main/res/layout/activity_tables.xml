@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010818"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".TablesActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            app:srcCompat="@drawable/placeholder"
+            android:contentDescription="@string/logo" />
+
+        <TextView
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/tables"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/four_chair_table_selected">
+
+                    </ImageView>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table1FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 1 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table1TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 1 Taken" />
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/four_chair_table_selected">
+
+                    </ImageView>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/table2FreeRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 2 Free" />
+
+                    <RadioButton
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/table2TakenRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 2 Taken" />
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/four_chair_table_selected">
+
+                    </ImageView>
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table3FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 3 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table3TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 3 Taken" />
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/four_chair_table_selected">
+
+                    </ImageView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/table4FreeRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 4 Free" />
+
+                    <RadioButton
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/table4TakenRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Table 4 Taken" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/six_chair_table_selected">
+
+                    </ImageView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table5FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 5 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table5TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 5 Taken" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/six_chair_table_selected">
+
+                    </ImageView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table6FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 6 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table6TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 6 Taken" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/two_chair_table_selected">
+
+                    </ImageView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table7FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 7 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table7TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 7 Taken" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/two_chair_table_selected">
+
+                    </ImageView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table8FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 8 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table8TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 8 Taken" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#F39C12">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/two_chair_table_selected">
+
+                    </ImageView>
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/table9FreeRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 9 Free" />
+
+                        <RadioButton
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/table9TakenRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table 9 Taken" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/buttonReturnHomeTables"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_rectangle_button_orange"
+                android:text="Return Home" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <!--    <ImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:src="@drawable/four_chair_table_selected">-->
+
+<!--    </ImageView>-->
+
+<!--    <ImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:src="@drawable/four_chair_table_selected">-->
+
+<!--    </ImageView>-->
+
+<!--    <ImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:src="@drawable/four_chair_table_selected">-->
+
+<!--    </ImageView>-->
+
+</LinearLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,4 +10,219 @@
     android:orientation="vertical"
     tools:context=".AllergyActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_marginTop="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            app:srcCompat="@drawable/placeholder"
+            android:contentDescription="@string/logo" />
+
+        <TextView
+            android:textSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/allergies_tolerances"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#F39C12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="18dp"
+                android:text="@string/lactose_intolerant"
+                android:textColor="#ffffff"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/lactose_free3">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#F39C12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="18dp"
+                android:text="@string/gluten_free"
+                android:textColor="#ffffff"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/gluten_free">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#F39C12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="18dp"
+                android:text="@string/meat_free"
+                android:textColor="#ffffff"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/meat_free">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#F39C12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="18dp"
+                android:text="@string/fish_free"
+                android:textColor="#ffffff"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/fish_free">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#F39C12">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginStart="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="18dp"
+                android:text="@string/nut_free"
+                android:textColor="#ffffff"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/peanuts__free">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

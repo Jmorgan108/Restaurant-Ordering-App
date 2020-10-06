@@ -10,12 +10,35 @@
     android:orientation="vertical"
     tools:context=".OrderActivity">
 
+    <RelativeLayout
+        android:layout_marginTop="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="25dp"
+            app:srcCompat="@drawable/placeholder" />
+
+        <TextView
+            android:textSize="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/order"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
     <EditText
         android:id="@+id/tableNumber"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="10dp"
         android:background="#ffffff"
         android:backgroundTint="#ffffff"
@@ -44,6 +67,14 @@
         android:layout_gravity="center"
         android:background="@drawable/rounded_rectangle_button_orange"
         android:text="Send Order" />
+    <Button
+        android:id="@+id/buttonReturnHome"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_rectangle_button_orange"
+        android:text="Return Home" />
 
 
 
